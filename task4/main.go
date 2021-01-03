@@ -83,6 +83,6 @@ func initValues() {
 	}
 	progressBar.Min = 0
 	progressBar.Max = MAX_PROGRESS_VALUE
-	progressBar.SetValue(100)
-	ticker = time.NewTicker(100 * time.Millisecond)
+	progressBar.SetValue(MAX_PROGRESS_VALUE)
+	ticker = time.NewTicker(UPDATE_EVERY_MS * time.Millisecond)
 }
