@@ -7,5 +7,7 @@ This is an implementation of 7GUIs in Golang with fyne as the UI toolkit There i
 ```bash
 go run task1/main.go
 go run task2/main.go
+go run task3/main.go
+go run task4/main.go
 # ...
 ```
