@@ -67,7 +67,7 @@ func kickNewTicker() {
 				elapsed = elapsed + (float64(UPDATE_EVERY_MS) / 1000)
 				progressBar.SetValue(elapsed / slider.Value * MAX_PROGRESS_VALUE)
 				elapseTimeValue.SetText(fmt.Sprintf("%.1f", elapsed) + "s")
-				if elapsed > slider.Value {
+				if elapsed >= slider.Value {
 					ticker.Stop()
 					done <- true
 				}
