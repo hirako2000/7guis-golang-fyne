@@ -65,7 +65,7 @@ func kickNewTicker() {
 				return
 			case _ = <-ticker.C:
 				elapsed = elapsed + (float64(UPDATE_EVERY_MS) / 1000)
-				progressBar.SetValue((slider.Value - elapsed) / slider.Value * MAX_PROGRESS_VALUE)
+				progressBar.SetValue(elapsed / slider.Value * MAX_PROGRESS_VALUE)
 				elapseTimeValue.SetText(fmt.Sprintf("%.1f", elapsed) + "s")
 				if elapsed > slider.Value {
 					ticker.Stop()
