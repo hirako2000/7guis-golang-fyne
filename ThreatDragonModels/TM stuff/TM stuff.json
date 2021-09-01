@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "TM stuff",
+    "owner": "Me",
+    "description": "High level description"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "See",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Me"
+  }
+}
