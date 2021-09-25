@@ -11,3 +11,7 @@ go run task3/main.go
 go run task4/main.go
 # ...
 ```
+
+### BigSure-Apple Silicon issue
+Fyne is basically broken, not due to Fyne itself but one of its dependency.
+Chasing this up is a rabbit hole, so it will take a while.
